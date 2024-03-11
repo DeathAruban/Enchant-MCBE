@@ -1,6 +1,6 @@
 <p align="center">
      <a href="https://github.com/DeathAruban/Enchant-MCBE">
-		<img src="https://github.com/DeathAruban/Enchant-MCBE/blob/main/img/enchant.png" loading="eager" />
+		<img src="https://github.com/DeathAruban/Enchant-MCBE/blob/main/img/enchant+.png" loading="eager" />
 	</a><br>
 	<b>Enchant + for Minecraft Bedrock Edition 1.20.60 without using Experimental mode, use</b></p>
  <p align="center"><b>module_name:@minecraft/server v1.8.0</b></p>
