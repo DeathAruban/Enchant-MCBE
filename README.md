@@ -12,3 +12,6 @@
 <img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/cT3YZJbOkBw?style=social">
 <img alt="GitHub" src="https://img.shields.io/github/license/DeathAruban/Loot-Bag">
 </p>
+
+Description
+This component enriches your gaming experience, allowing you to discover various treasures by killing entities. Based on the difficulty of the entity, the reward will be higher. In addition, the following addon offers maximum customization. For more information, see the section below.
