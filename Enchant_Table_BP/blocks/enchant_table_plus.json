@@ -1,0 +1,43 @@
+//  ||========================================================================================================================||
+//  ||                                                                                                                        ||
+//  ||  ________  _______   ________  _________  ___  ___  ________  ________  ___  ___  ________  ________  ________         ||
+//  || |\   ___ \|\  ___ \ |\   __  \|\___   ___\\  \|\  \|\   __  \|\   __  \|\  \|\  \|\   __  \|\   __  \|\   ___  \       ||
+//  ||  \ \  \_|\ \ \   __/|\ \  \|\  \|___ \  \_\ \  \\\  \ \  \|\  \ \  \|\  \ \  \\\  \ \  \|\ /\ \  \|\  \ \  \\ \  \     ||
+//  ||   \ \  \ \\ \ \  \_|/_\ \   __  \   \ \  \ \ \   __  \ \   __  \ \   _  _\ \  \\\  \ \   __  \ \   __  \ \  \\ \  \    ||
+//  ||    \ \  \_\\ \ \  \_|\ \ \  \ \  \   \ \  \ \ \  \ \  \ \  \ \  \ \  \\  \\ \  \\\  \ \  \|\  \ \  \ \  \ \  \\ \  \   ||
+//  ||     \ \_______\ \_______\ \__\ \__\   \ \__\ \ \__\ \__\ \__\ \__\ \__\\ _\\ \_______\ \_______\ \__\ \__\ \__\\ \__\  ||
+//  ||      \|_______|\|_______|\|__|\|__|    \|__|  \|__|\|__|\|__|\|__|\|__|\|__|\|_______|\|_______|\|__|\|__|\|__| \|__|  ||
+//  ||                                                                                                                        ||
+//  ||========================================================================================================================||
+//  ||                                                                                                                        ||                                                                                                                   
+//  ||                                               ★ Please do not modify this code ★                                      ||                                                                  
+//  ||                                   ► This Mod was created for Minecraft Bedrock Edition ◄                               || 
+//  ||                                                                                                                        ||
+//  ||========================================================================================================================||   
+{
+    "format_version": "1.20.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "da:enchant_table_plus",
+            "menu_category": {"category": "items","is_hidden_in_commands": false},
+            "traits": {"minecraft:placement_direction": {"enabled_states": ["minecraft:cardinal_direction"]}}
+        },
+
+        "components": {
+            "minecraft:geometry": "geometry.enchant_table_plus",
+            "minecraft:material_instances": {"*": {"texture": "enchant_table_plus","render_method": "alpha_test"}},
+            "minecraft:destructible_by_mining": {"seconds_to_destroy": 1},
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 30},
+            "minecraft:light_emission": 8,
+            "minecraft:light_dampening": 15,
+            "minecraft:collision_box": {"origin": [-8, 0, -8],"size": [16, 12, 16]},
+            "minecraft:selection_box": {"origin": [-8, 0, -8],"size": [16, 12, 16]}
+        },
+		"permutations": [
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'north' ","components": {"minecraft:transformation": {"rotation": [0, 180, 0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'south' ","components": {"minecraft:transformation": {"rotation": [0, 0, 0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'east' ","components": {"minecraft:transformation": {"rotation": [0, 90, 0]}}},
+			{"condition": "q.block_state('minecraft:cardinal_direction') == 'west' ","components": {"minecraft:transformation": {"rotation": [0, 270, 0]}}}
+		]
+    }
+}
