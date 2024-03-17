@@ -50,24 +50,12 @@ Once you have added the enchantments you desire, confirm with the button below w
  <img src="https://github.com/DeathAruban/Enchant-MCBE/blob/main/img/3.png" loading="eager" />
 </p>
 # Cost Xp
-Instead, if you want to change the price to enchant your items, just go to: script/config Open the config file and change the value on xp which is 5 by default.
+Instead, if you want to change the price to enchant your items, just go to:
 
 ```json5
 scripts/config.js
 ```
+Open the config file and change the value on xp which is 5 by default.
 ```json5
-        1:{
-            chance:3,
-            name:'Beacon Time',
-            description:'do you want powers?',
-            drop:{
-                item:{
-                    1:{id:"minecraft:beacon", amount:1},
-                },
-                effect:{
-                    1:{id:'haste',time:10000,amplifer:3,particle:true},
-                    2:{id:'strength',time:10000,amplifer:3,particle:true},
-                }
-            }
-        },
+ xp:5
 ```
