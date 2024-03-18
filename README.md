@@ -7,6 +7,8 @@
 	<a href="https://github.com/DeathAruban/Enchant-MCBE/releases/latest"><img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/DeathAruban/Enchant-MCBE?label=release&sort=semver"></a>
 	<a href="https://github.com/DeathAruban/Enchant-MCBE/releases/latest"><img alt="GitHub release (latest by SemVer)" src="https://img.shields.io/github/downloads/DeathAruban/Enchant-MCBE/latest/total?sort=semver"></a>
 <img alt="PingPong status" src="https://img.shields.io/pingpong/status/sp_7b7ce509b36c47ee9b20d041d018dc0a">
+<a href="https://discord.gg/NKy9A9RAe8"><img src="https://img.shields.io/discord/373199722573201408?label=discord&color=7289DA&logo=discord" alt="Discord" /></a>
+<a href="https://github.com//DeathAruban/Enchant-MCBE/releases"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/DeathAruban/Enchant-MCBE/total?label=downloads%40total"></a>
 <img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/cT3YZJbOkBw?style=social">
 <img alt="GitHub" src="https://img.shields.io/github/license/DeathAruban/Enchant-MCBE">
 </p>
