@@ -12,7 +12,7 @@
 		"description": "pack.description",
 		"min_engine_version": [1,20,60],
 		"uuid": "702fe72d-df0e-4b16-a7f3-4b8bee79ef91",
-		"version": [1,0,0]
+		"version": [1,0,3]
 	},
 	"modules": [
 		{
@@ -29,8 +29,8 @@
 		}
 	],
 	"dependencies": [
-		{ "uuid": "11b6d69b-0e5e-46e2-b02c-48f2e215279c", "version": [1,0,0] },
-		{ "module_name": "@minecraft/server", "version": "1.10.0-beta" },
+		{ "uuid": "11b6d69b-0e5e-46e2-b02c-48f2e215279c", "version": [1,0,3] },
+		{ "module_name": "@minecraft/server", "version": "1.11.0-beta" },
 		{ "module_name": "@minecraft/server-ui", "version": "1.1.0" }
 	]
 }
