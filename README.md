@@ -2,7 +2,7 @@
      <a href="https://github.com/DeathAruban/Enchant-MCBE">
 		<img src="https://github.com/DeathAruban/Enchant-MCBE/blob/main/img/enchant+.png" loading="eager" />
 	</a><br>
-    <b>Addon Enchant + for Minecraft: Bedrock Edition written in Json and javascript MC (API 1.20.80)</b>
+    <b>Addon Enchant + for Minecraft: Bedrock Edition written in Json and javascript MC (API 1.21.0)</b>
 <p align="center">
 	<a href="https://github.com/DeathAruban/Enchant-MCBE/releases/latest"><img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/DeathAruban/Enchant-MCBE?label=release&sort=semver"></a>
 	<a href="https://github.com/DeathAruban/Enchant-MCBE/releases/latest"><img alt="GitHub release (latest by SemVer)" src="https://img.shields.io/github/downloads/DeathAruban/Enchant-MCBE/latest/total?sort=semver"></a>
@@ -26,6 +26,7 @@ This behavior adds a new enchantment table to your world, allowing for maximum c
 
 | Supported | World | Realms |Server Dedicated | Custom servers | Windows | Mobile | PS4/PS5 | Xbox | Nintendo Switch |
 | ------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
+| 1.21.0   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | 1.20.80   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | 1.20.71   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | previous versions   | :x:  | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | 
