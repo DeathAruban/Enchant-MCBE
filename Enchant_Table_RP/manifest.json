@@ -1,0 +1,28 @@
+{
+	"format_version": 2,
+	"metadata": {
+	  "authors": ["Death_Aruban"],
+	  "generated_with": {"arucube": ["1.0.0"]},
+	  "url": "https://discord.com/invite/NKy9A9RAe8",
+	  "license": "Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)",
+	  "license_url": "https://creativecommons.org/licenses/by-nd/4.0/"
+	},
+	"header": {
+	  "name": "pack.name",
+	  "description": "pack.description",
+	  "min_engine_version": [1,20,60],
+	  "uuid": "edeb2cdc-791e-4edb-b279-0a53f4fae3d5",
+	  "version": [1,0,5]
+	},
+	"modules": [
+	  {
+		"type": "resources",
+		"uuid": "8e05ba3e-4728-4e04-804c-5e964e0fdbb0",
+		"version": [1,0,0]
+	  }
+	],
+	"dependencies": [
+	  { "uuid": "2252a380-edfc-408d-ac4f-118a1128d251", "version": [1,0,5] }
+	]
+  }
+  

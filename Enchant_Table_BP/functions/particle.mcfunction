@@ -1,0 +1,1 @@
+execute as @e[type=da:enchant_sphere] at @s run particle da:enchant_sphere ~ ~0.2 ~ 

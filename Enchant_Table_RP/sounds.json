@@ -1,0 +1,16 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "da:enchant_sphere": {
+        "volume": 0.0,
+        "pitch": [
+          0.0,
+          0.0
+        ],
+        "events": {
+          "death": "mob.null"
+        }
+      }
+    }
+  }
+}

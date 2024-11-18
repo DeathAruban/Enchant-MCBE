@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "minecraft:enchant_essence"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AB",
+			"C"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:amethyst_shard",
+                "data": 0
+            },
+            "B": {
+                "item": "minecraft:lapis_lazuli",
+                "data": 0
+            },
+			"C": {
+                "item": "minecraft:glass_bottle",
+                "data": 0
+            }
+        },
+        "unlock": [
+            {"item": "da:enchant_essence"}
+        ],
+        "result": {
+            "item": "da:enchant_essence",
+            "count": 6
+        }
+    }
+}

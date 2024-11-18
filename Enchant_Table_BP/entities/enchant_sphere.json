@@ -1,0 +1,40 @@
+/**
+ * ||========================================================================================================================||
+ * ||                                                                                                                        ||
+ * ||  ________  _______   ________  _________  ___  ___  ________  ________  ___  ___  ________  ________  ________         ||
+ * || |\   ___ \|\  ___ \ |\   __  \|\___   ___\\  \|\  \|\   __  \|\   __  \|\  \|\  \|\   __  \|\   __  \|\   ___  \       ||
+ * ||  \ \  \_|\ \ \   __/|\ \  \|\  \|___ \  \_\ \  \\\  \ \  \|\  \ \  \|\  \ \  \\\  \ \  \|\ /\ \  \|\  \ \  \\ \  \     ||
+ * ||   \ \  \ \\ \ \  \_|/_\ \   __  \   \ \  \ \ \   __  \ \   __  \ \   _  _\ \  \\\  \ \   __  \ \   __  \ \  \\ \  \    ||
+ * ||    \ \  \_\\ \ \  \_|\ \ \  \ \  \   \ \  \ \ \  \ \  \ \  \ \  \ \  \\  \\ \  \\\  \ \  \|\  \ \  \ \  \ \  \\ \  \   ||
+ * ||     \ \_______\ \_______\ \__\ \__\   \ \__\ \ \__\ \__\ \__\ \__\ \__\\ _\\ \_______\ \_______\ \__\ \__\ \__\\ \__\  ||
+ * ||      \|_______|\|_______|\|__|\|__|    \|__|  \|__|\|__|\|__|\|__|\|__|\|__|\|_______|\|_______|\|__|\|__|\|__| \|__|  ||
+ * ||                                                                                                                        ||
+ * ||========================================================================================================================||
+ * ||                                                                                                                        ||  
+ * ||                                               ★ Please do not modify this code ★                                      ||  
+ * ||                                   ► This Mod was created for Minecraft Bedrock Edition ◄                               || 
+ * ||                                                                                                                        ||
+ * ||========================================================================================================================||
+ */
+
+/**
+* @made_by Death_Aruban
+* @version [1.0.5]
+* @link [https://discord.com/invite/NKy9A9RAe8]
+*/
+
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": { "identifier": "da:enchant_sphere", "is_summonable": true, "is_spawnable": false, "is_experimental": false },
+		"component_groups": {"despawn": { "minecraft:instant_despawn": {} }},
+		"components": {
+			"minecraft:damage_sensor": { "triggers": [{"cause": "all","deals_damage": false}]},
+			"minecraft:collision_box": {"width": 0,"height": 0},
+			"minecraft:physics": { "has_collision": true,"has_gravity": false},
+			"minecraft:nameable": { "always_show": false, "allow_name_tag_renaming": false },
+			"minecraft:type_family": {"family": ["mob"]}
+		},
+		"events": { "despawn":  {"add": {"component_groups": ["despawn"]} }}
+	}
+}

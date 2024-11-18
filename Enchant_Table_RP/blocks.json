@@ -1,0 +1,7 @@
+{
+   "format_version": [ 1,1,0 ],
+   "enchant_table_plus" : {
+      "sound" : "vault",
+      "textures" : "enchant_table_plus"
+   }
+}

@@ -1,0 +1,6 @@
+pack.name=§dEnchant+ §f[ RP ]
+pack.description=Tired of the old Enchant Table? With this new Enchantment Table, you can enchant as you wish, remove, and transfer your enchantments to items!
+
+tile.da:enchant_table_plus.name=§dEnchantment Table 
+
+item.da:enchant_essence=§dEnchant Essence
