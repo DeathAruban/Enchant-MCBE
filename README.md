@@ -32,7 +32,7 @@ This behavior adds a new enchantment table to your world, allowing for maximum c
 | 1.20.71   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | previous versions   | :x:  | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | 
 
-# How does it work
+# How does it work (Old Version 1.0.4 ) New guide arrive
 To make it work, the first thing you will need to do is build the enchantment table using this recipe:
 <p align="center">
  <img src="https://github.com/DeathAruban/Enchant-MCBE/blob/main/img/craft.png" loading="eager" />
