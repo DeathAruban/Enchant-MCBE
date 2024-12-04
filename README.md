@@ -2,7 +2,7 @@
      <a href="https://github.com/DeathAruban/Enchant-MCBE">
 		<img src="https://github.com/DeathAruban/Enchant-MCBE/blob/main/img/enchant+.png" loading="eager" />
 	</a><br>
-    <b>Addon Enchant + for Minecraft: Bedrock Edition written in Json and javascript MC (API 1.21.44)</b>
+    <b>Addon Enchant + for Minecraft: Bedrock Edition written in Json and javascript MC (API 1.21.50 )</b>
 <p align="center">
 	<a href="https://github.com/DeathAruban/Enchant-MCBE/releases/latest"><img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/DeathAruban/Enchant-MCBE?label=release&sort=semver"></a>
 	<a href="https://github.com/DeathAruban/Enchant-MCBE/releases/latest"><img alt="GitHub release (latest by SemVer)" src="https://img.shields.io/github/downloads/DeathAruban/Enchant-MCBE/latest/total?sort=semver"></a>
